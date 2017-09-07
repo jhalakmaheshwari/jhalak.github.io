@@ -443,6 +443,12 @@ h2 {
 .techstack{
     padding-left: 15px;
 }
+
+.profile{
+    height: 283px;
+    border-radius: 12px;
+}
+
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
     .git {
@@ -450,6 +456,13 @@ h2 {
     }
     #works3{
         display:block !important;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    /* For Desktop phones: */
+    .introduction{
+        padding-top: 27px;
     }
 }
 
