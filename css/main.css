@@ -284,11 +284,6 @@ textarea {
     }
 }
 
-.sectionone{
-    background-color: #292c2f;
-    color: white;
-}
-
 .parallax{
 
 
@@ -427,13 +422,19 @@ h2 {
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.oddSection{
-    background-color: white;
-    color: black;
-}
-.evenSection{
+.sectionone{
     background-color: #292c2f;
     color: white;
+}
+
+.oddSection{
+    background-color: #292c2f;
+    color: white;
+    padding-bottom: 56px;
+}
+.evenSection{
+    background-color: white;
+    color: black;
     padding-bottom: 56px;
 }
 .project_heading{
