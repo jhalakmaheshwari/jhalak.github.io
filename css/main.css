@@ -293,8 +293,8 @@ textarea {
 
 
     /* Set a specific height */
-    height: 100vh;
-
+    min-height: 100vh;
+    height: auto;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -434,6 +434,7 @@ h2 {
 .evenSection{
     background-color: #292c2f;
     color: white;
+    padding-bottom: 56px;
 }
 .project_heading{
     text-align: left;
