@@ -326,7 +326,8 @@ h2 {
 }
 .workUl>li{
     display: block;
-    padding-left: 25px;
+    padding-left: 0px;
+    text-align: justify;
 }
 .displaySkills{
     display: none;
